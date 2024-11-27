@@ -10,3 +10,4 @@ public class A {
   System.out.println(sum+ " is the total of 1 to 10 numbers.");
 }
 }
+
