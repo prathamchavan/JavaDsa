@@ -21,8 +21,7 @@ public class ALP
     Iterator<String> itr = list.iterator();
     while(itr.hasNext())
     {
-      String ele = itr.next();
-      System.out.println(ele);
+      System.out.println(itr.next());
     }
   }
 }
