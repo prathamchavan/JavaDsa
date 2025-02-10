@@ -11,8 +11,18 @@ public class ALP
     list.add("Ajay");
 
     System.out.println(list);
-  
+    
+    System.out.println("Using get method");
     System.out.println(list.get(0));
     System.out.println(list.get(3));
+
+    //Iterator
+    System.out.println("Values printing using iterator");
+    Iterator<String> itr = list.iterator();
+    while(itr.hasNext())
+    {
+      String ele = itr.next();
+      System.out.println(ele);
+    }
   }
 }
